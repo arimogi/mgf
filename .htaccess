@@ -1,0 +1,23 @@
+php_flag magic_quotes_gpc off
+
+<IfModule mod_deflate.c>
+	SetOutputFilter DEFLATE
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	
+	RewriteEngine on
+	
+	#################################
+	# no need this for production   #
+	#################################
+	RewriteBase /mgf/
+
+	##############################################################
+	# Change this "./mg.bin/" --> "/mg.bin" for root production  #
+	##############################################################
+	RewriteRule ^([^./]{2}[^.]*)$ ./mg.bin/index.php?bowl=$1 [QSA,L]
+	RewriteRule ^$ ./mg.bin/index.php?bowl=$1 [QSA,L]
+	
+</IfModule>

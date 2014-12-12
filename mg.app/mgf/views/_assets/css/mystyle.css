@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,600);
+
+body {
+	background: #dddddd url("../img/bg-samsungaja.png") 45% 45%;	
+}
+
+.box-login {
+	background: #ffffff;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	border-radius: 10px;
+}
+
+@media screen and (min-width: 640px) {
+	.bgwhite {
+		background: #ffffff;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 9pt;		
+		font-family: arial;
+		background: #ffffff url("../img/bg-samsungaja.png") 45% 45%;
+	}
+
+	table tr td {
+		font-size: 8pt;
+		font-family: "Arial Narrow";
+	}
+
+	input {
+		font-size: 8pt;
+	}
+}
+
+.nav li a {
+	font-family: 'Titillium Web', Sans-Serif;
+}
+
+.container-fluid h2 {
+	font-family: 'Titillium Web', Sans-Serif;
+}
+
+.tableWhite {
+	background: #ffffff !important;
+}
+
+.bgred {
+	background: #ee0000;
+}
+
+.text-small {
+	font-size: 8pt;
+}
+
+.font9pt {
+	font-size: 9pt;
+}
+
+.arial10pt {
+	font-family:  Arial, Tahoma, Verdana, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+	font-size: 10pt;
+}
+
+.arial14pt {
+	font-family:  Arial, Tahoma, Verdana, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+	font-size: 14pt;
+}
+
+.arialnarrow12pt {
+	font-family:  "Arial Narrow", Arial, Verdana, Tahoma, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+	font-size: 12pt;	
+}
+
+.arialnarrow14pt {
+	font-family:  "Arial Narrow", Arial, Verdana, Tahoma, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+	font-size: 14pt;	
+	font-weight: bold;
+}
+
+.nav-margin li {
+	margin-left: 10px;
+}
+
+.horizontal-line {
+	min-height: 50px;
+	border-bottom: dashed 1px #dddddd;
+	margin-bottom: 25px;
+}
+
+.sheetReport {
+	font-size: 8pt;
+}
+
+.sheetReport h3 a {
+	font-size: 8pt;
+}
+
+.pushRight {
+	text-align: right !important;
+}
+
+.pushCenter {
+	text-align: center !important;	
+}
+
+@media screen and (max-width: 320px) {
+	.container-fluid h2 {
+		font-size: 14pt;
+		line-height: 20px;
+	}
+}
+
+.cursorHand {
+	cursor: pointer !important;
+}
+
+.padding5px {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.txStrong {
+	font-weight: bolder;
+}
+
+#coverProcess {
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background: #000000;
+	display: block;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.clBlue {
+	color: #006dcc;
+}
